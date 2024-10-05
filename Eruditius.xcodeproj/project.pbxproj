@@ -11,6 +11,7 @@
 		F3C68B412CB1E6A70021B6F3 /* Eruditius.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C68B3C2CB1E6A70021B6F3 /* Eruditius.swift */; };
 		F3C68B422CB1E6A70021B6F3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C68B3E2CB1E6A70021B6F3 /* Item.swift */; };
 		F3C68B442CB1E6A70021B6F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C68B392CB1E6A70021B6F3 /* Assets.xcassets */; };
+		F3C68B472CB1E8170021B6F3 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F3C68B462CB1E8170021B6F3 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		F3C68B3C2CB1E6A70021B6F3 /* Eruditius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eruditius.swift; sourceTree = "<group>"; };
 		F3C68B3D2CB1E6A70021B6F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3C68B3E2CB1E6A70021B6F3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F3C68B462CB1E8170021B6F3 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				F3C68B3C2CB1E6A70021B6F3 /* Eruditius.swift */,
 				F3C68B3D2CB1E6A70021B6F3 /* Info.plist */,
 				F3C68B3B2CB1E6A70021B6F3 /* Eruditius.entitlements */,
+				F3C68B462CB1E8170021B6F3 /* Localizable.xcstrings */,
 				F3C68B392CB1E6A70021B6F3 /* Assets.xcassets */,
 				F3C68B3A2CB1E6A70021B6F3 /* Content View.swift */,
 				F3C68B3E2CB1E6A70021B6F3 /* Item.swift */,
@@ -106,6 +109,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = F3C68B182CB1E69F0021B6F3;
 			minimizedProjectReferenceProxies = 1;
@@ -124,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C68B472CB1E8170021B6F3 /* Localizable.xcstrings in Resources */,
 				F3C68B442CB1E6A70021B6F3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +270,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -321,6 +327,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
