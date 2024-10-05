@@ -1,28 +1,22 @@
-//
-//  EruditiusApp.swift
-//  Eruditius
-//
-//  Created by Sergei Saliukov on 5/10/24.
-//
-
 import SwiftUI
 import SwiftData
 
 @main
-struct EruditiusApp: App {
-    var sharedModelContainer: ModelContainer = {
+struct Eruditius: App {
+    private let sharedModelContainer = {
         let schema = Schema([
-            Item.self,
+            Item.self
         ])
+        
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
+        
         do {
             return try ModelContainer(for: schema, configurations: [modelConfiguration])
         } catch {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
-
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

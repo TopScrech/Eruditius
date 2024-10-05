@@ -1,10 +1,3 @@
-//
-//  Item.swift
-//  Eruditius
-//
-//  Created by Sergei Saliukov on 5/10/24.
-//
-
 import Foundation
 import SwiftData
 
