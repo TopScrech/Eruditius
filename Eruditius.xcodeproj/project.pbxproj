@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,10 +28,8 @@
 /* Begin PBXFrameworksBuildPhase section */
 		F3C68B1E2CB1E69F0021B6F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -79,11 +77,7 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			name = Eruditius;
-			packageProductDependencies = (
-			);
 			productName = Eruditius;
 			productReference = F3C68B212CB1E69F0021B6F3 /* Eruditius.app */;
 			productType = "com.apple.product-type.application";
@@ -96,7 +90,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					F3C68B202CB1E69F0021B6F3 = {
 						CreatedOnToolsVersion = 16.0;
@@ -113,7 +107,7 @@
 			);
 			mainGroup = F3C68B182CB1E69F0021B6F3;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = F3C68B222CB1E69F0021B6F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,30 +120,26 @@
 /* Begin PBXResourcesBuildPhase section */
 		F3C68B1F2CB1E69F0021B6F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3C68B472CB1E8170021B6F3 /* Localizable.xcstrings in Resources */,
 				F3C68B442CB1E6A70021B6F3 /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F3C68B1D2CB1E69F0021B6F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F3C68B402CB1E6A70021B6F3 /* Content View.swift in Sources */,
 				F3C68B412CB1E6A70021B6F3 /* Eruditius.swift in Sources */,
 				F3C68B422CB1E6A70021B6F3 /* Item.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F3C68B332CB1E6A00021B6F3 /* Debug */ = {
+		F3C68B332CB1E6A00021B6F3 /* Debug configuration for PBXNativeTarget "Eruditius" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -157,7 +147,6 @@
 				CODE_SIGN_ENTITLEMENTS = Eruditius/Eruditius.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Eruditius/Info.plist;
@@ -180,7 +169,7 @@
 			};
 			name = Debug;
 		};
-		F3C68B342CB1E6A00021B6F3 /* Release */ = {
+		F3C68B342CB1E6A00021B6F3 /* Release configuration for PBXNativeTarget "Eruditius" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -188,7 +177,6 @@
 				CODE_SIGN_ENTITLEMENTS = Eruditius/Eruditius.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Eruditius/Info.plist;
@@ -211,11 +199,12 @@
 			};
 			name = Release;
 		};
-		F3C68B352CB1E6A00021B6F3 /* Debug */ = {
+		F3C68B352CB1E6A00021B6F3 /* Debug configuration for PBXProject "Eruditius" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -246,6 +235,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -275,11 +265,12 @@
 			};
 			name = Debug;
 		};
-		F3C68B362CB1E6A00021B6F3 /* Release */ = {
+		F3C68B362CB1E6A00021B6F3 /* Release configuration for PBXProject "Eruditius" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -310,6 +301,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -338,19 +330,17 @@
 		F3C68B1C2CB1E69F0021B6F3 /* Build configuration list for PBXProject "Eruditius" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3C68B352CB1E6A00021B6F3 /* Debug */,
-				F3C68B362CB1E6A00021B6F3 /* Release */,
+				F3C68B352CB1E6A00021B6F3 /* Debug configuration for PBXProject "Eruditius" */,
+				F3C68B362CB1E6A00021B6F3 /* Release configuration for PBXProject "Eruditius" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F3C68B322CB1E6A00021B6F3 /* Build configuration list for PBXNativeTarget "Eruditius" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3C68B332CB1E6A00021B6F3 /* Debug */,
-				F3C68B342CB1E6A00021B6F3 /* Release */,
+				F3C68B332CB1E6A00021B6F3 /* Debug configuration for PBXNativeTarget "Eruditius" */,
+				F3C68B342CB1E6A00021B6F3 /* Release configuration for PBXNativeTarget "Eruditius" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
